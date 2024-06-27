@@ -25,14 +25,6 @@ public class GameOfLife {
 		}
 	}
 
-	public int getCell(int col, int row) {
-		try {
-			return gameBoard[row][col];
-		} catch (InputMismatchException e) {
-			return 0;
-		}
-	}
-
 	public void computeNextGeneration(int gens) {
 		if (gens == 0)
 			return;
