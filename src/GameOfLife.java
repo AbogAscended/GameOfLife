@@ -80,15 +80,6 @@ public class GameOfLife {
 			computeNextGeneration(gens - 1);
 		}
 	}
-
-	public int getRows() {
-		return rows;
-	}
-
-	public int getCol() {
-		return columns;
-	}
-
 	public void setGeners(int genss) {
 		geners = genss;
 	}
